@@ -1,6 +1,9 @@
 body
 {
     margin: 0px;
+    /*background-color: rgb(253, 228, 232);*/
+    /*background: linear-gradient(.25turn,  rgb(253, 228, 232), rgb(255, 186, 199));*/
+    background: linear-gradient(45deg, rgb(241, 193, 201) 0 50%, rgb(255, 196, 206));
 }
 
 body.welcome
@@ -149,21 +152,29 @@ body.welcome
     }
 }
 
-.hello
+.hellobox
 {
-    color: orange;
-    font: bold;
-    font-family: cursive;
-    font-size: 75px;
+    background-color: rgb(255, 210, 197);
+    padding: 50px;
+    border-radius: 30px;
+    margin: auto;
     position: fixed;
-    text-align: center;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
+.hello
+{
+    color: orange;
+    font: bold;
+    font-family: cursive;
+    font-size: 4.5vw;
+    text-align: center;
+}
+
 p
 {
-    font-size: 2rem;
+    font-size: 2vw;
     color: brown;
 }
