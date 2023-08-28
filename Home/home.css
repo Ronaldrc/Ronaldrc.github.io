@@ -23,23 +23,25 @@ body.welcome
     box-shadow: 0px 1px 5px lightslategray;
     background-color: white;
     border-top: 0 !important;
-    height: 25px;
+    height: 50px;
 }
 
 .grid-icons
 {
+    grid-gap: 10px;
     flex-grow: 1;
     white-space: nowrap;
     max-width: min-content; 
-    display: grid;
+    display: flex;
     align-items: center;
     grid-template-columns: repeat(5, 1fr);
     margin: auto;
+    grid-auto-rows: 1fr;
 }
 
 .grid-item {
     justify-items: end;
-    font-size: 10px;
+    font-size: 22px;
 }
 
 .home-page
@@ -81,19 +83,6 @@ body.welcome
     background-color:#b97ba7;
 }
 
-.linkedin
-{
-    padding: 5px 5px;
-    background-color: white;
-    color: black;
-    text-decoration: none;
-}
-
-.linkedin:hover
-{
-    background-color: #b97ba7;
-}
-
 .about-me
 {
     padding: 5px 5px;
@@ -119,7 +108,7 @@ body.welcome
     font-family: 'Times New Roman', Times, serif;
     font-size: 45px;
     font-weight: 900;
-    color: white;
+    color: orange;
     opacity: 0;
     filter: blur(0px);
     transform: translateX(-100%);
@@ -128,12 +117,9 @@ body.welcome
 
 .container
 {
-    display: flex;
-    flex-direction: column;
+    margin-left: 20px;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    min-height: 100vh;
 }
 
 .container-icons
@@ -153,19 +139,6 @@ body.welcome
     display: grid;
     grid-template-rows: repeat(4, 1fr);
     list-style-type: none;
-}
-
-.test-transition
-{
-    min-height: 700px;
-    font-size: 50px;
-    text-align: center;
-    color: black;
-
-    opacity: 0;
-    filter: blur(0px);
-    transform: translateX(-100%);
-    transition: all 1s;
 }
 
 .main-header, .show

@@ -14,23 +14,25 @@ body
     box-shadow: 0px 1px 5px lightslategray;
     background-color: white;
     border-top: 0 !important;
-    height: 25px;
+    height: 50px;
 }
 
 .grid-icons
 {
+    grid-gap: 10px;
     flex-grow: 1;
     white-space: nowrap;
     max-width: min-content; 
-    display: grid;
+    display: flex;
     align-items: center;
     grid-template-columns: repeat(5, 1fr);
     margin: auto;
+    grid-auto-rows: 1fr;
 }
 
 .grid-item {
     justify-items: end;
-    font-size: 10px;
+    font-size: 22px;
 }
 
 .home-page
@@ -70,19 +72,6 @@ body
 .hobbies:hover
 {
     background-color:#b97ba7;
-}
-
-.linkedin
-{
-    padding: 5px 5px;
-    background-color: white;
-    color: black;
-    text-decoration: none;
-}
-
-.linkedin:hover
-{
-    background-color: #b97ba7;
 }
 
 .about-me
