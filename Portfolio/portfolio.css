@@ -1,18 +1,17 @@
 body
 {
-    background-color: white;
     margin: 0px;
 }
 
 .topbar-fixed
 {
+    background-color: rgb(185, 185, 185);
     position: -webkit-sticky;
     position: sticky;
     top: 0;
     display: flex;
     z-index: 2023;
     box-shadow: 0px 1px 5px lightslategray;
-    background-color: white;
     border-top: 0 !important;
     height: 50px;
 }
@@ -20,70 +19,66 @@ body
 .grid-icons
 {
     grid-gap: 10px;
-    flex-grow: 1;
     white-space: nowrap;
     max-width: min-content; 
     display: flex;
-    align-items: center;
-    grid-template-columns: repeat(5, 1fr);
     margin: auto;
-    grid-auto-rows: 1fr;
 }
 
 .grid-item {
     justify-items: end;
-    font-size: 22px;
+    font-size: 24px;
 }
 
 .home-page
 {
-    background-color: white;
+    background-color: rgb(185, 185, 185);
     color: black;
     text-decoration: none;
 }
 
 .home-page:hover
 {
-    background-color:#b97ba7;
+    background-color: lightgray;
 }
 
 .portfolio
 {
     padding: 5px 5px;
-    background-color: white;
+    background-color: rgb(185, 185, 185);
     color: black;
     text-decoration: none;
 }
 
 .portfolio:hover
 {
-    background-color: #b97ba7;
+    background-color: lightgray;
 }
 
 .hobbies
 {
     padding: 5px 5px;
-    background-color: white;
+    background-color: rgb(185, 185, 185);
     color: black;
     text-decoration: none;
 }
 
 .hobbies:hover
 {
-    background-color:#b97ba7;
+    background-color:lightgray;
 }
 
 .about-me
 {
     padding: 5px 5px;
-    background-color: white;
+    background-color: rgb(185, 185, 185);
     color: black;
     text-decoration: none;
 }
 
 .about-me:hover
 {
-    background-color: #b97ba7;
+    background-color: lightgray;
 }
 
 .page-name
