@@ -1,11 +1,11 @@
 body
 {
     margin: 0px;
-    /*background-color: rgb(253, 228, 232);*/
-    /*background: linear-gradient(.25turn,  rgb(253, 228, 232), rgb(255, 186, 199));*/
-    background: linear-gradient(45deg, rgb(241, 193, 201) 0 50%, rgb(255, 196, 206));
+    /*background-color: rgb(253, 228, 232);
+    background: linear-gradient(.25turn,  rgb(253, 228, 232), rgb(255, 186, 199));*/
+    background: #234163;
 }
-
+/*
 body.welcome
 {
     background-image: url('pexels-forest-trees.jpg');
@@ -14,10 +14,10 @@ body.welcome
     background-position: center;
     max-height: 200px;
 }
-
+*/
 .topbar-fixed
 {
-    background-color: rgb(185, 185, 185);
+    background-color: rgb(253, 249, 0);
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -39,58 +39,60 @@ body.welcome
 
 .grid-item {
     justify-items: end;
+    max-height: 50px;
     font-size: 24px;
 }
 
 .home-page
 {
-    background-color: rgb(185, 185, 185);
-    color: black;
+    background-color: rgb(253, 249, 0);
+    color: red;
     text-decoration: none;
+    max-height: 50px;
 }
 
 .home-page:hover
 {
-    background-color: lightgray;
+    background-color: #9ccaff;
 }
 
 .portfolio
 {
     padding: 5px 5px;
-    background-color: rgb(185, 185, 185);
-    color: black;
+    background-color: rgb(253, 249, 0);
+    color: red;
     text-decoration: none;
 }
 
 .portfolio:hover
 {
-    background-color: lightgray;
+    background-color: #9ccaff;
 }
 
 .hobbies
 {
     padding: 5px 5px;
-    background-color: rgb(185, 185, 185);
-    color: black;
+    background-color: rgb(253, 249, 0);
+    color: red;
     text-decoration: none;
 }
 
 .hobbies:hover
 {
-    background-color:lightgray;
+    background-color:#9ccaff;
 }
 
 .about-me
 {
     padding: 5px 5px;
-    background-color: rgb(185, 185, 185);
-    color: black;
+    background-color: rgb(253, 249, 0);
+    color: red;
     text-decoration: none;
 }
 
 .about-me:hover
 {
-    background-color: lightgray;
+    background-color: #9ccaff;
 }
 
 .page-name
@@ -154,9 +156,7 @@ body.welcome
 
 .hellobox
 {
-    background-color: rgb(255, 210, 197);
     padding: 50px;
-    border-radius: 30px;
     margin: auto;
     position: fixed;
     top: 50%;
@@ -164,17 +164,18 @@ body.welcome
     transform: translate(-50%, -50%);
 }
 
-.hello
+#hello
 {
     color: orange;
     font: bold;
-    font-family: cursive;
-    font-size: 4.5vw;
+    font-family:'Segoe UI';
+    font-size: 70px;
     text-align: center;
 }
 
 p
 {
-    font-size: 2vw;
-    color: brown;
+    font-size: 30px;
+    font-family: Georgia;
+    color: rgb(153, 221, 44);
 }

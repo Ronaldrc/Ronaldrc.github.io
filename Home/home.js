@@ -23,7 +23,25 @@ var firstPage = document.querySelector('.container');
 var secondPage = document.querySelector('.test-transition, .test-transition.show');
 
 document.onscroll = function scroll() {
-    if (window.pageYOffset > 0) {
+    if (window.scrollY > 0) {
         secondPage.scrollIntoView({behavior: "smooth"});
     }
+}
+
+//
+/*
+window.onload = function() {
+    var helloText = document.getElementById("hello");
+    helloText.style.opacity = 0;
+    while (helloText.style.opacity < 1) {
+        helloText.style.opacity += 0.1;
+    }
+};
+*/
+
+window.onload = function() {
+    var img = new Image();
+    img.src = "/home/stick_man.png";
+    var src = document.getElementById("hello");
+    src.appendChild(img);
 }
