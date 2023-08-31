@@ -41,7 +41,7 @@ window.onload = function() {
 
 window.onload = function() {
     var img = new Image();
-    img.src = "/home/stick_man.png";
+    img.src = "/Home/stick_man.png";
     var src = document.getElementById("hello");
     src.appendChild(img);
 }

@@ -1,11 +1,12 @@
 body
 {
     margin: 0px;
+    background: #234163;
 }
 
 .topbar-fixed
 {
-    background-color: rgb(185, 185, 185);
+    background-color: rgb(253, 249, 0);
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -27,58 +28,79 @@ body
 
 .grid-item {
     justify-items: end;
+    max-height: 50px;
     font-size: 24px;
 }
 
 .home-page
 {
-    background-color: rgb(185, 185, 185);
-    color: black;
+    background-color: rgb(253, 249, 0);
+    color: red;
     text-decoration: none;
+    max-height: 50px;
 }
 
 .home-page:hover
 {
-    background-color: lightgray;
+    background-color: #9ccaff;
 }
 
 .portfolio
 {
     padding: 5px 5px;
-    background-color: rgb(185, 185, 185);
-    color: black;
+    background-color: rgb(253, 249, 0);
+    color: red;
     text-decoration: none;
 }
 
 .portfolio:hover
 {
-    background-color: lightgray;
+    background-color: #9ccaff;
 }
 
 .hobbies
 {
     padding: 5px 5px;
-    background-color: rgb(185, 185, 185);
-    color: black;
+    background-color: rgb(253, 249, 0);
+    color: red;
     text-decoration: none;
 }
 
 .hobbies:hover
 {
-    background-color:lightgray;
+    background-color:#9ccaff;
 }
 
 .about-me
 {
     padding: 5px 5px;
-    background-color: rgb(185, 185, 185);
-    color: black;
+    background-color: rgb(253, 249, 0);
+    color: red;
     text-decoration: none;
 }
 
 .about-me:hover
 {
-    background-color: lightgray;
+    background-color: #9ccaff;
+}
+
+.page-name
+{
+    display: flex;
+    text-align: center;
+    font-size: 25px;
+}
+
+.main-header
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+    font-weight: 900;
+    color: orange;
+    opacity: 0;
+    filter: blur(0px);
+    transform: translateX(-100%);
+    transition: all 2s;
 }
 
 .container
