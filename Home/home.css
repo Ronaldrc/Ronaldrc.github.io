@@ -1,18 +1,13 @@
 body
 {
     margin: 0px;
-    background: #234163;
-}
-/*
-body.welcome
-{
-    background-image: url('pexels-forest-trees.jpg');
+    /*background: #234163;*/
+    background-image: url('/Home/pexels-bridge-walk.jpg');
     background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
-    max-height: 200px;
+    background-size: cover;
+    background-position: 50% 40%;
 }
-*/
+
 .topbar-fixed
 {
     background-color: rgb(253, 249, 0);
@@ -154,6 +149,10 @@ body.welcome
 
 .hellobox
 {
+    background-color: #234163;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 1px;
     padding: 50px;
     margin: auto;
     position: fixed;
@@ -164,6 +163,7 @@ body.welcome
 
 #hello
 {
+    transition: 1s;
     color: orange;
     font: bold;
     font-family:'Segoe UI';
@@ -173,6 +173,7 @@ body.welcome
 
 p
 {
+    transition: 1s;
     font-size: 30px;
     font-family: Georgia;
     color: rgb(153, 221, 44);

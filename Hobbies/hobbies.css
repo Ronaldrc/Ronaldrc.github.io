@@ -93,7 +93,7 @@ body
 
 .main-header
 {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman';
     font-size: 45px;
     font-weight: 900;
     color: orange;
@@ -103,15 +103,64 @@ body
     transition: all 2s;
 }
 
-.container
+h1.header
 {
-    margin-left: 20px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    color: rgb(0, 185, 0);
+}
+
+/*
+.rows:after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+*/
+
+.columns
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box
+{
+    background-color: rgb(253, 164, 29);
+    border-radius: 20px;
+    border-style: solid;
+    font-size: 30px;
+    float: left;
+    flex: 1 0 25%;
+    margin: 40px;
+    min-height: 200px;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.container-icons
+p.hobby
 {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+}
+
+p.paragraph
+{
+    margin: 10px;
+    text-align: center;
+    word-wrap: break-word;
+    font-size: 22px;
+    display: none;
+}
+
+.box:hover p.hobby
+{
+    display: none;
+}
+
+.box:hover p.paragraph
+{
+    display: block;
 }
