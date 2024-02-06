@@ -10,7 +10,7 @@ body
 
 .topbar-fixed
 {
-    background-color: rgb(253, 249, 0);
+    background-color: rgb(97, 197, 255);
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -38,8 +38,8 @@ body
 
 .home-page
 {
-    background-color: rgb(253, 249, 0);
-    color: red;
+    background-color: rgb(97, 197, 255);
+    color: rgb(19, 82, 255);
     text-decoration: none;
     max-height: 50px;
 }
@@ -52,8 +52,8 @@ body
 .portfolio
 {
     padding: 5px 5px;
-    background-color: rgb(253, 249, 0);
-    color: red;
+    background-color: rgb(97, 197, 255);
+    color: rgb(19, 82, 255);
     text-decoration: none;
 }
 
@@ -65,8 +65,8 @@ body
 .hobbies
 {
     padding: 5px 5px;
-    background-color: rgb(253, 249, 0);
-    color: red;
+    background-color: rgb(97, 197, 255);
+    color: rgb(19, 82, 255);
     text-decoration: none;
 }
 
@@ -78,8 +78,8 @@ body
 .about-me
 {
     padding: 5px 5px;
-    background-color: rgb(253, 249, 0);
-    color: red;
+    background-color: rgb(97, 197, 255);
+    color: rgb(19, 82, 255);
     text-decoration: none;
 }
 
