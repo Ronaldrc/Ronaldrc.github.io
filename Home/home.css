@@ -3,9 +3,12 @@ body
     margin: 0px;
     /*background: #234163;*/
     background-image: url('/Home/pexels-bridge-walk.jpg');
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat;
     background-size: cover;
-    background-position: 50% 40%;
+    background-position: 50% 40%; */
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center; 
 }
 
 .topbar-fixed
